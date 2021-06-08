@@ -15,5 +15,7 @@ namespace Reports.Models
         }
 
         public DbSet<Customer> Customers { get; set; }
+
+        public DbSet<Person> Persons { get; set; }
     }
 }

@@ -18,6 +18,11 @@ namespace Reports.Controllers
         //    return View();
         //}
 
+        public IActionResult Customer()
+        {
+            return View();
+        }
+
         private DBCtx Context { get; }
         public HomeController(DBCtx _context)
         {

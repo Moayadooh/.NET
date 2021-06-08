@@ -3,37 +3,37 @@
 }
 
 @*@using System.Data
-@model DataTable
-<table id="tblExport" class="table table-hover table-responsive  table-striped">
-    <tr>
-        <th>Name</th>
-        <th>Age</th>
-        <th>Job Title</th>
-    </tr>
-    <tr>
-        <td>Moayad</td>
-        <td>23</td>
-        <td>Computer Programmer</td>
-    </tr>
-</table>
+    @model DataTable
+    <table id="tblExport" class="table table-hover table-responsive  table-striped">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Job Title</th>
+        </tr>
+        <tr>
+            <td>Moayad</td>
+            <td>23</td>
+            <td>Computer Programmer</td>
+        </tr>
+    </table>
 
-<input type="button" onclick="tableToExcel('tblExport', 'W3C Example Table')" value="Export to Excel">
-@section scripts{
-    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        var tableToExcel = (function () {
-            var uri = 'data:application/vnd.ms-excel;base64,'
-                , template = '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>{table}</table></body></html>'
-                , base64 = function (s) { return window.btoa(unescape(encodeURIComponent(s))) }
-                , format = function (s, c) { return s.replace(/{(\w+)}/g, function (m, p) { return c[p]; }) }
-            return function (table, name) {
-                if (!table.nodeType) table = document.getElementById(table)
-                var ctx = { worksheet: name || 'Worksheet', table: table.innerHTML }
-                window.location.href = uri + base64(format(template, ctx))
-            }
-        })()
-    </script>
-}*@
+    <input type="button" onclick="tableToExcel('tblExport', 'W3C Example Table')" value="Export to Excel">
+    @section scripts{
+        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            var tableToExcel = (function () {
+                var uri = 'data:application/vnd.ms-excel;base64,'
+                    , template = '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>{table}</table></body></html>'
+                    , base64 = function (s) { return window.btoa(unescape(encodeURIComponent(s))) }
+                    , format = function (s, c) { return s.replace(/{(\w+)}/g, function (m, p) { return c[p]; }) }
+                return function (table, name) {
+                    if (!table.nodeType) table = document.getElementById(table)
+                    var ctx = { worksheet: name || 'Worksheet', table: table.innerHTML }
+                    window.location.href = uri + base64(format(template, ctx))
+                }
+            })()
+        </script>
+    }*@
 
 
 
@@ -56,6 +56,10 @@
         $(function () {
             $(".btnSubmit").click(function () {
                 $("input[name='GridHtml']").val($("#Grid").html());
+            });
+
+            $("#print").click(function () {
+                window.print();
             });
         });
     </script>
@@ -84,6 +88,7 @@
     <br />
     <form asp-action="Export" asp-controller="Home" method="post">
         <input type="hidden" name="GridHtml" />
+        <input type="button" value="Save as PDF" id="print" />
         <input type="submit" value="Export" class="btnSubmit" />
     </form>
 </body>
