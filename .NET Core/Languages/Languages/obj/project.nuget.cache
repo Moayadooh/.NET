@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "S2sHBXaKdyF2H9Nt+N1p5zLkOPiJH0PRmrMuoae0iFUmEK9mSru4W0lYGcuvDtcWHi3lfHU3lPBXv0+cJcxe3A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\moaya\\Documents\\.NET\\.NET Core\\Languages\\Languages\\Languages.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moaya\\.nuget\\packages\\orchardcore.localization.abstractions\\1.0.0-rc2-13450\\orchardcore.localization.abstractions.1.0.0-rc2-13450.nupkg.sha512",
+    "C:\\Users\\moaya\\.nuget\\packages\\orchardcore.localization.core\\1.0.0-rc2-13450\\orchardcore.localization.core.1.0.0-rc2-13450.nupkg.sha512"
+  ],
+  "logs": []
+}
