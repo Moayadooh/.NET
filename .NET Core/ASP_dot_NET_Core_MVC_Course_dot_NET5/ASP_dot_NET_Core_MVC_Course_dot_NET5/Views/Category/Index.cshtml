@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ASP_dot_NET_Core_MVC_Course_dot_NET5.Models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            @if (Model.Count() > 0)
+            {
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Category Name</th>
+                            <th>Display Order</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td>@item.DisplayOrder</td>
+                                <td class="text-center">
+                                    <div class="w-75 btn-group" role="group">
+                                        <a asp-controller="Category" asp-route-Id="@item.Id" asp-action="Edit" class="btn btn-primary mx-2">Edit</a>
+                                        <a asp-controller="Category" asp-route-Id="@item.Id" asp-action="Delete" class="btn btn-danger mx-2">Delete</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p>No category exist.</p>
+            }
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <a asp-controller="Category" asp-action="Create">Create New Category</a>
+        </div>
+    </div>
+</div>
