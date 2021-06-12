@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="dotNETCoreCourse" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\moaya\\Documents\\\.NET\\\.NET\ Core\\ASP_dot_NET_Core_MVC_Course_dot_NET5\\ASP_dot_NET_Core_MVC_Course_dot_NET5\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

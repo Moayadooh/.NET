@@ -14,5 +14,6 @@
     <WebStackScaffolding_DbContextTypeFullName>ASP_dot_NET_Core_MVC_Course_dot_NET5.Data.ApplicationDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
+    <NameOfLastUsedPublishProfile>C:\Users\moaya\Documents\.NET\.NET Core\ASP_dot_NET_Core_MVC_Course_dot_NET5\ASP_dot_NET_Core_MVC_Course_dot_NET5\Properties\PublishProfiles\IISProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
