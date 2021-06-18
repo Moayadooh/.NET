@@ -63,8 +63,7 @@ namespace WebAPI_JWT.Controllers
             new Claim(JwtRegisteredClaimNames.Sub, user.Username),
             new Claim(JwtRegisteredClaimNames.Email, profile.EmailAddress),
             new Claim("DateOfJoing", profile.DateOfJoing.ToString("yyyy-MM-dd")),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-        };
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()) };
 
             var token = new JwtSecurityToken(_config["Jwt:Issuer"],
                 _config["Jwt:Issuer"],

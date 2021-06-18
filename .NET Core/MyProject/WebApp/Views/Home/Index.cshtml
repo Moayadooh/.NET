@@ -1,0 +1,24 @@
+﻿@model Data.Login
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+
+    <form asp-action="Index" class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label asp-for="Email" class="sr-only">Email address</label>
+        <input asp-for="Email" class="form-control" placeholder="Email address" required="" autofocus="" kl_ab.original_type="email">
+        <label asp-for="Password" class="sr-only">Password</label>
+        <input asp-for="Password" class="form-control" placeholder="Password" required="">
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    </form>
+    <p>@ViewData["data"]</p>
+
+</div>

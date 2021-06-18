@@ -5218,24 +5218,27 @@
   },
   "packageFolders": {
     "C:\\Users\\moaya\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moaya\\Documents\\NajehWebDevelopment\\Mine\\.NET Core\\WebAPI\\ConsoleApp\\ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\moaya\\Documents\\.NET\\.NET Core\\WebAPI\\ConsoleApp\\ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "C:\\Users\\moaya\\Documents\\NajehWebDevelopment\\Mine\\.NET Core\\WebAPI\\ConsoleApp\\ConsoleApp.csproj",
+      "projectPath": "C:\\Users\\moaya\\Documents\\.NET\\.NET Core\\WebAPI\\ConsoleApp\\ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\moaya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moaya\\Documents\\NajehWebDevelopment\\Mine\\.NET Core\\WebAPI\\ConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\moaya\\Documents\\.NET\\.NET Core\\WebAPI\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\moaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5282,7 +5285,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

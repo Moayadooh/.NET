@@ -27,7 +27,18 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            var allowOrigns = Configuration.GetSection("AllowOrigins").Value.Split(',');
+            services.AddCors(options =>
+            {
+                options.AddPolicy("origin_policy", builder => {
+                    builder.WithOrigins(allowOrigns)
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowCredentials();
+                });
+            });
+
+            services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.IgnoreNullValues = true); // Ignore null values
 
             services.AddDbContext<CountryDB>(options => options.UseSqlServer(Configuration.GetConnectionString("constr")));
         }
@@ -48,11 +59,7 @@ namespace WebAPI
 
             app.UseStatusCodePages();
 
-            app.UseCors(x => x
-                .AllowAnyMethod()
-                .AllowAnyHeader()
-                .SetIsOriginAllowed(origin => true) // allow any origin
-                .AllowCredentials()); // allow credentials
+            app.UseCors("origin_policy");
 
             app.UseEndpoints(endpoints =>
             {

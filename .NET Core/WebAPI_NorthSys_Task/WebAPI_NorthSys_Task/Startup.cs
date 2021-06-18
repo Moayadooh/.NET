@@ -25,6 +25,17 @@ namespace WebAPI_NorthSys_Task
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddCors();
+            var allowOrigns = Configuration.GetSection("AllowOrigins").Value.Split(',');
+            services.AddCors(options =>
+            {
+                options.AddPolicy("origin_policy", builder => {
+                    builder.WithOrigins(allowOrigns)
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowCredentials();
+                });
+            });
             services.AddControllers();
         }
 
@@ -42,13 +53,14 @@ namespace WebAPI_NorthSys_Task
 
             app.UseAuthorization();
 
-           app.UseStatusCodePages(); //return status code when error occur (e.g. Status Code: 404; Not Found)
+            app.UseStatusCodePages(); //return status code when error occur (e.g. Status Code: 404; Not Found)
 
-            app.UseCors(x => x
-                .AllowAnyMethod()
-                .AllowAnyHeader()
-                .SetIsOriginAllowed(origin => true) // allow any origin
-                .AllowCredentials()); // allow credentials
+            //app.UseCors(x => x
+            //    .AllowAnyMethod() // "GET", "POST", "PUT", "DELETE"
+            //    .AllowAnyHeader() // Content Type
+            //    .SetIsOriginAllowed(origin => true) // allow any origin
+            //    .AllowCredentials()); // allow credentials
+            app.UseCors("origin_policy");
 
             app.UseEndpoints(endpoints =>
             {

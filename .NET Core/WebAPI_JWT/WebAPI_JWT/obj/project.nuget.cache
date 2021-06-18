@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0eY7ozzmmO75YSOP61jy7uBKb9g56T/25fYoB1bdUsPzpG115ragru4zQEErk2a3x6CBcR6k6fCp77vKQicK5w==",
+  "dgSpecHash": "xx2/RNUfnwHECmJ3eYTLDfPU9DisRIorqOJUgDvaEfqXIYRhl7LhENb3jaqVhHf2byjKvIlXaW7HukGZy0ujJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\moaya\\Documents\\NajehWebDevelopment\\MVC\\Mine\\WebAPI_JWT\\WebAPI_JWT\\WebAPI_JWT.csproj",
+  "projectFilePath": "C:\\Users\\moaya\\Documents\\.NET\\.NET Core\\WebAPI_JWT\\WebAPI_JWT\\WebAPI_JWT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moaya\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.12\\microsoft.aspnetcore.authentication.jwtbearer.3.1.12.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
