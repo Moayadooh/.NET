@@ -79,3 +79,6 @@ C:\Users\moaya\Documents\.NET\.NET Core\MyProject\WebApp\bin\Debug\netcoreapp3.1
 C:\Users\moaya\Documents\.NET\.NET Core\MyProject\WebApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\moaya\Documents\.NET\.NET Core\MyProject\WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\moaya\Documents\.NET\.NET Core\MyProject\WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\moaya\Documents\.NET\.NET Core\MyProject\WebApp\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\moaya\Documents\.NET\.NET Core\MyProject\WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\moaya\Documents\.NET\.NET Core\MyProject\WebApp\obj\Debug\netcoreapp3.1\WebApp.MvcApplicationPartsAssemblyInfo.cs

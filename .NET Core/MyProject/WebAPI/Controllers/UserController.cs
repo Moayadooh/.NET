@@ -1,4 +1,5 @@
 ﻿using Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -10,22 +11,30 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UserController : ControllerBase
     {
-        private readonly ApplicationDbContext _db;
+        private readonly ICurrentUser _currentUser;
 
-        public UserController(ApplicationDbContext db)
+        public UserController(ICurrentUser currentUser)
         {
-            _db = db;
+            _currentUser = currentUser;
         }
 
         [HttpPost("login")]
+        [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] Login login)
         {
-            var obj = _db.Logins.Where(x => x.Email == login.Email && x.Password == login.Password);
-            if (obj.Count() > 0)
-                return Ok(true);
-            return Ok(false);
+            IActionResult response = Unauthorized();
+            var isValid = _currentUser.AuthenticateUser(login);
+
+            if (isValid)
+            {
+                var tokenString = _currentUser.GenerateJSONWebToken();
+                response = Ok(new { token = tokenString });
+            }
+
+            return response;
         }
     }
 }

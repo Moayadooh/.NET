@@ -65,3 +65,7 @@ C:\Users\moaya\Documents\.NET\.NET Core\MyProject\WebAPI\bin\Debug\netcoreapp3.1
 C:\Users\moaya\Documents\.NET\.NET Core\MyProject\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\moaya\Documents\.NET\.NET Core\MyProject\WebAPI\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\moaya\Documents\.NET\.NET Core\MyProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\moaya\Documents\.NET\.NET Core\MyProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\moaya\Documents\.NET\.NET Core\MyProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\moaya\Documents\.NET\.NET Core\MyProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\moaya\Documents\.NET\.NET Core\MyProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
