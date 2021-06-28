@@ -1,0 +1,16 @@
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\Data\obj\Debug\netcoreapp3.1\Data.pdb

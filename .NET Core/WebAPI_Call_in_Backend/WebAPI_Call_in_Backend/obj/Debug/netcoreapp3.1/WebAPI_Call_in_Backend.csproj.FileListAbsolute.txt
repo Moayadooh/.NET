@@ -1,0 +1,52 @@
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.exe
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.deps.json
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.runtimeconfig.json
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.runtimeconfig.dev.json
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.dll
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.pdb
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.csproj.AssemblyReference.cache
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.AssemblyInfoInputs.cache
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.AssemblyInfo.cs
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.csproj.CoreCompileInputs.cache
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI_Call_in_Backend.StaticWebAssets.Manifest.cache
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI_Call_in_Backend.StaticWebAssets.xml
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebAPI_Call_in_Backend.styles.css
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.RazorTargetAssemblyInfo.cache
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.csproj.CopyComplete
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.dll
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.pdb
+C:\Users\moaya\Desktop\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.genruntimeconfig.cache
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.exe
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.deps.json
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.runtimeconfig.json
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.runtimeconfig.dev.json
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.dll
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.pdb
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.csproj.AssemblyReference.cache
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.AssemblyInfoInputs.cache
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.AssemblyInfo.cs
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.csproj.CoreCompileInputs.cache
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI_Call_in_Backend.StaticWebAssets.Manifest.cache
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI_Call_in_Backend.StaticWebAssets.xml
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebAPI_Call_in_Backend.styles.css
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.RazorTargetAssemblyInfo.cache
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.csproj.CopyComplete
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.dll
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.pdb
+C:\Users\moaya\Documents\.NET\.NET Core\WebAPI_Call_in_Backend\WebAPI_Call_in_Backend\obj\Debug\netcoreapp3.1\WebAPI_Call_in_Backend.genruntimeconfig.cache
