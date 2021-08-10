@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*@Html.TextBoxFor(m => m.BalanceDate, new { @class = "datepicker1", spellcheck = "false", @Value = "dd/mm/yyyy", @placeholder = "dd/mm/yyyy", title = "Enter Valid Date." })
+    @Html.Hidden("datepicker1-calendar-displayed")
+    @Html.Hidden("datepicker1-selected-date-part")*@
+<input class="datepicker1" spellcheck="false" value="dd/mm/yyyy" placeholder="dd/mm/yyyy" title="Enter Valid Date." />
+<input type="hidden" id="datepicker1-calendar-displayed" value="0" />
+<input type="hidden" id="datepicker1-selected-date-part" value="0" />
+
+@*@Html.TextBoxFor(m => m.BalanceDate, new { @class = "datepicker2", spellcheck = "false", @Value = "dd/mm/yyyy", @placeholder = "dd/mm/yyyy", @title = "Enter Valid Date.", @required = "required" })
+    @Html.Hidden("datepicker2-calendar-displayed")
+    @Html.Hidden("datepicker2-selected-date-part")*@
+<input class="datepicker2" spellcheck="false" value="dd/mm/yyyy" placeholder="dd/mm/yyyy" title="Enter Valid Date." required="required" />
+<input type="hidden" id="datepicker2-calendar-displayed" value="0" />
+<input type="hidden" id="datepicker2-selected-date-part" value="0" />
+
+<input class="datepicker3" spellcheck="false" value="dd/mm/yyyy" placeholder="dd/mm/yyyy" title="Enter Valid Date." />
+<input type="hidden" id="datepicker3-calendar-displayed" value="0" />
+<input type="hidden" id="datepicker3-selected-date-part" value="0" />
+
+<input class="datepicker4" spellcheck="false" value="dd/mm/yyyy" placeholder="dd/mm/yyyy" title="Enter Valid Date." />
+<input type="hidden" id="datepicker4-calendar-displayed" value="0" />
+<input type="hidden" id="datepicker4-selected-date-part" value="0" />
