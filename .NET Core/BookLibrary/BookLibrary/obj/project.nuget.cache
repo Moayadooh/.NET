@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NnX8mPnxEOKdJ+eKacZr2mIq49I+wzr28JtGS4BhQnn8ooLKqtPgj8ze/dNl6kf/cw2cgsjlFPhu/ioltrKzRg==",
+  "dgSpecHash": "CxOhirKcalhGJd0AzEAoIWzzKcjpedrhsOW1keO5ZvnVpHLc+YBafcL2ut3EIQ6F8pl+qXejgTKAfnOKfVWdqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\moaya\\source\\repos\\BookLibrary\\BookLibrary\\BookLibrary.csproj",
+  "projectFilePath": "C:\\Users\\moaya\\Documents\\.NET\\.NET Core\\BookLibrary\\BookLibrary\\BookLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moaya\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\moaya\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

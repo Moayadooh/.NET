@@ -11403,11 +11403,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moaya\\source\\repos\\BookLibrary\\BookLibrary\\BookLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\moaya\\Documents\\.NET\\.NET Core\\BookLibrary\\BookLibrary\\BookLibrary.csproj",
       "projectName": "BookLibrary",
-      "projectPath": "C:\\Users\\moaya\\source\\repos\\BookLibrary\\BookLibrary\\BookLibrary.csproj",
+      "projectPath": "C:\\Users\\moaya\\Documents\\.NET\\.NET Core\\BookLibrary\\BookLibrary\\BookLibrary.csproj",
       "packagesPath": "C:\\Users\\moaya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moaya\\source\\repos\\BookLibrary\\BookLibrary\\obj\\",
+      "outputPath": "C:\\Users\\moaya\\Documents\\.NET\\.NET Core\\BookLibrary\\BookLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
